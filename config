@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "FrontendShoesStore"]
+	url = https://github.com/yannhervee/FrontendShoesStore.git
+	fetch = +refs/heads/*:refs/remotes/FrontendShoesStore/*
+[remote "Webpage"]
+	url = https://github.com/GreenShoeStore2024/GreenShoes.git
+	fetch = +refs/heads/*:refs/remotes/Webpage/*
